@@ -1,0 +1,466 @@
+body {
+	background: url('images/backgrounds-white-6.jpg');
+}
+#result {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 8px;
+	margin: auto;
+	min-height: 250px;
+}
+#result2 {
+	/* border-radius: 5px; */
+	margin: auto;
+	min-height: 250px;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+h2 span {
+	font-size: 11pt;
+	color: #ff9800;
+}
+.horizontal_title {
+	font-size: 4em;
+	text-align: center;
+}
+.horizontal_descp {
+	text-align: center;
+	font-size: 16pt;
+}
+.horizontal_name {
+	text-align: center;
+	font-size: 2em;
+}
+.horizontal_terms {
+	font-size: 11pt;
+}
+.horizontal_logo {
+	width: 260px;
+	height: 260px;
+}
+.horizontal_expire {
+	font-size: 12pt;
+	text-align: center;
+	color: #e91e63;
+}
+.horizontal_promo_img {
+	max-height: 300px;
+	max-width: 300px;
+}
+
+
+.template1{
+	background-size: cover; 
+	
+}
+
+
+.template1 .vertical_name {
+	text-align: center;
+	font-size: 2em;
+	padding: 16px 0;
+	background: linear-gradient(135deg, #e3c383 5px, transparent 0) 0 5px,
+		linear-gradient(-135deg, #e3c383 5px, #edeae4 0) 0 5px;
+	background-color: #e3c383;
+	background-position: left bottom;
+	background-repeat: repeat-x;
+	background-size: 10px 10px;
+}
+.template1 .vertical_name {
+	text-align: center;
+	font-size: 1em;
+}
+.vertical_title {
+	font-size: 1.5em;
+}
+.template1 .vertical_descp {
+	font-size: 12pt;
+}
+.template1 .vertical_logo {
+	width: 90%;
+    height: 60%;
+}
+.template1 .vertical_terms {
+	font-size: 11pt;
+	max-width: 500px;
+	padding: 10px;
+}
+.vertical_expire {
+	font-size: 9pt;
+	color: #e91e63;
+}
+.template1 .vertical_promo_img {
+	max-height: 300px;
+	max-width: 180px;
+}
+
+
+
+
+
+/* The device with borders */
+.smartphone {
+	position: relative;
+	width: 360px;
+	min-height: 560px;
+	margin: auto;
+	border: 16px black solid;
+	border-top-width: 60px;
+	border-bottom-width: 60px;
+	border-radius: 36px;
+	transition: .4s;
+	padding: 0;
+}
+.sm-rotate {
+	transform: rotate(-90deg);
+	width: 300px;
+	overflow: scroll;
+	overflow-y: hidden;
+	/* scrollbar-color: #0b0a0a #775151; */
+}
+.result-rotate {
+	transform: rotate(90deg);
+	margin: -40px !important;
+}
+.result-rotate .bottom-full {
+	padding-bottom: 110px;
+}
+/* The horizontal line on the top of the device */
+.smartphone:before {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 5px;
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #333;
+	border-radius: 10px;
+}
+/* The circle on the bottom of the device */
+
+.smartphone:after {
+	content: '';
+	display: block;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 50%;
+	bottom: -65px;
+	transform: translate(-50%, -50%);
+	background: #333;
+	border-radius: 50%;
+}
+.col-6.smartphone-img {
+	background: url('images/iphone.png') no-repeat scroll center center / cover;
+	width: 450px;
+	position: relative;
+	/* z-index: 999999999; */
+	height: 450px;
+}
+.ipad{
+	position: relative;
+	
+	width: 1024px;
+	min-height: 768px;
+	margin: auto;
+	border: 16px black solid;
+	border-top-width: 60px;
+	border-bottom-width: 60px;
+	border-radius: 36px;
+
+}
+
+.ipad:before {
+	content: '';
+	display: block;
+	width: 60px;
+	height: 5px;
+	position: absolute;
+	top: -30px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #333;
+	border-radius: 10px;
+}
+/* The circle on the bottom of the device */
+
+.ipad:after {
+	content: '';
+	display: block;
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	left: 50%;
+	bottom: -65px;
+	transform: translate(-50%, -50%);
+	background: #333;
+	border-radius: 50%;
+}
+.modal-content{
+	width: 120%;
+	padding: 0 10%;
+	
+}
+
+
+@media only screen and (max-width: 800px) {
+	.horizontal_title {
+		font-size: 2em;
+		text-align: center;
+	}
+	.horizontal_descp {
+		text-align: center;
+		font-size: 12pt;
+	}
+	.horizontal_name {
+		text-align: center;
+		font-size: 1em;
+	}
+	.horizontal_logo {
+		width: 180px;
+		height: 180px;
+	}
+	.horizontal_expire {
+		font-size: 9pt;
+		text-align: center;
+		color: #e91e63;
+	}
+	.horizontal_promo_img {
+		max-height: 300px;
+		max-width: 300px;
+	}
+}
+.font-select * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.font-select {
+	font-size: 16px;
+	width: 240px;
+	position: relative;
+	display: inline-block;
+}
+.font-select .fs-drop {
+	position: absolute;
+	top: 38px;
+	left: 0;
+	z-index: 999;
+	background: #fff;
+	color: #000;
+	width: 100%;
+	border: 1px solid #aaa;
+	border-top: 0;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, .15);
+	border-radius: 0 0 4px 4px;
+}
+.font-select > span {
+	outline: 0;
+	border-radius: 0.25rem;
+	border: 1px solid #ced4da;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	height: 38px;
+	line-height: 32px;
+	padding: 3px 8px 3px 8px;
+	color: #444;
+	background: #fff
+		url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23303030' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e")
+		no-repeat right 0.75rem center/8px 10px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.font-select-active > span {
+	background-color: #eee;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.font-select .fs-results {
+	max-height: 190px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0;
+	padding: 0;
+}
+.font-select .fs-results li {
+	line-height: 80%;
+	padding: 8px;
+	margin: 0;
+	list-style: none;
+	font-size: 18px;
+}
+.font-select .fs-results li.active {
+	background-color: #3875d7;
+	color: #fff;
+	cursor: pointer;
+}
+.font-select .fs-search {
+	border-bottom: 1px solid #aaa;
+	padding: 4px;
+}
+.font-select .fs-search input {
+	padding: 7px;
+	width: 100%;
+	border: 1px solid #aaa;
+	font: 16px Helvetica, Sans-serif;
+	box-shadow: inset 0 1px 3px rgba(0, 0, 0, .06);
+	border-radius: .1875rem;
+}
+/* updated css */
+/* .color-green{
+	padding: 3%;
+	border: 1px solid #198754;;
+	background-color: #198754;
+	color: white;
+	
+}
+.input-custom{
+	padding: 3%;
+	border: 1px solid #198754;;
+	background-color: #ececec;
+	color: white;
+} */
+/* ******************************
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+****************************** */
+.coupon-space h1 {
+	border-bottom: 2px solid #4d8cd1;
+	border-radius: 10px;
+	padding: 10px;
+	/* margin-bottom: 2%; */
+	font-size: 33px;
+}
+.panel-group .panel {
+	border-radius: 0;
+	box-shadow: none;
+	border-color: #eeeeee;
+}
+.panel-default > .panel-heading {
+	padding: 2px;
+	border-radius: 5px;
+	margin-bottom: 1%;
+	color: #212121;
+	background-color: #A9A8B2;
+	border-color: #eeeeee;
+	width: 80%;
+}
+.panel-heading.active {
+	background-color: #BA3B11;
+}
+.panel-title {
+	font-size: 20px;
+}
+
+.panel-title > a {
+	display: block;
+	padding: 5px 5px 0px 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	/* padding-left: 20px; */
+}
+.more-less {
+	float: right;
+	color: white;
+	transition: all 0.5s ease 0s;
+	/* line-height: 29px; */
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 2px 2px;
+	font-size: 15px;
+}
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #eeeeee;
+	background-color: white;
+	padding-bottom: 4px;
+	width: 80%;
+}
+.buttons-bottom {
+	margin-top: 5%;
+}
+.demo {
+	padding: 16px 0;
+	background-color: #e3c383;
+}
+.save {
+	padding: 40px 0;
+	background-color: #edeae4;
+}
+.form-control {
+	font-size: 15px;
+	
+}
+
+
+.al-panel-collapse {
+	padding-bottom: 5px;
+	display: none;
+	/* transition: .4s; */
+}
+.al-panel-toggle {
+	display: block;
+	/* transition: .4s; */
+}
+.panel-title .fa-minus {
+	display: none;
+}
+.alAddNew .fa-plus {
+	display: none;
+}
+.alAddNew .fa-minus {
+	display: block;
+}
+.al-panel-collapse .panel-body {
+	width: 80%;
+}
+
+#rotate_btn {
+	padding: 7px 36px;
+	background: #BA3B11;
+	border: none;
+}
+.al-float-right {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 15px;
+}
+.al-float-right button {
+	margin: 0 7px;
+}
+
+/* layout menu css  */
+.lay-droupdown a {
+	color: #eee;
+	background: #A9A8B2;
+	margin: 0 5px 14px;
+	border-radius: 3px;
+	transition: .4s;
+	padding: 5px 20px;
+}
+.lay-droupdown a:hover {
+	background: gray;
+}
+.lay-droupdown a.active {
+	background: #BA3B11;
+}
+.show-url {
+	margin-bottom: 10px;
+	background: #A9A8B2;
+	color: #eee;
+	border-radius: 4px;
+	padding: 5px 0;
+}
+
+@media all and (max-width: 767px){
+	.al-max-mar{
+		margin-left: 20%;
+	}
+}
